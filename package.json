@@ -1,0 +1,32 @@
+{
+  "name": "text-summarizer",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency NLP summarization package built with TypeScript. Inspired by traditional NLP techniques like those in Python's NLTK — but without any API or AI calls.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArjunAmbavane01/text-summarizer.git"
+  },
+  "keywords": [
+    "nlp",
+    "summarization",
+    "text-analysis",
+    "typescript",
+    "extractive",
+    "text summarizer",
+    "natural language processing",
+    "sentence ranking",
+    "frequency-based summarization"
+  ],
+  "author": "Arjun Ambavane <arjun.ambavane@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "type": "module"
+}
