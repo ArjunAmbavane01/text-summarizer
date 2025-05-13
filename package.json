@@ -1,5 +1,5 @@
 {
-  "name": "text-summarizer",
+  "name": "ts-summarizer",
   "version": "1.0.0",
   "description": "A lightweight, zero-dependency NLP summarization package built with TypeScript. Inspired by traditional NLP techniques like those in Python's NLTK — but without any API or AI calls.",
   "main": "dist/index.js",
