@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "description": "A lightweight, zero-dependency NLP summarization package built with TypeScript. Inspired by traditional NLP techniques like those in Python's NLTK — but without any API or AI calls.",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,6 +31,8 @@
     "text-analysis",
     "typescript",
     "extractive",
+    "textrank",
+    "tf-idf",
     "text summarizer",
     "natural language processing",
     "sentence ranking",
@@ -27,6 +42,5 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.4"
-  },
-  "type": "module"
+  }
 }

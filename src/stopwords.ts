@@ -1,0 +1,20 @@
+export const STOPWORDS = new Set([
+  'a', 'about', 'above', 'after', 'again', 'against', 'all', 'always', 'am',
+  'among', 'an', 'and', 'any', 'anyone', 'anything', 'anywhere', 'are', 'as',
+  'at', 'be', 'because', 'been', 'before', 'being', 'below', 'besides', 'between',
+  'both', 'but', 'by', 'can', 'could', 'did', 'do', 'does', 'doing', 'down',
+  'during', 'each', 'else', 'enough', 'everyone', 'everything', 'everywhere', 'few',
+  'for', 'from', 'further', 'had', 'has', 'have', 'having', 'he', 'her', 'here',
+  'hers', 'herself', 'him', 'himself', 'his', 'how', 'i', 'if', 'in', 'into',
+  'is', 'it', 'its', 'itself', 'just', 'least', 'might', 'mine', 'more', 'most',
+  'much', 'must', 'my', 'myself', 'neither', 'no', 'nobody', 'nor', 'not', 'nothing',
+  'now', 'nowhere', 'of', 'off', 'on', 'once', 'only', 'or', 'other', 'our',
+  'ours', 'ourselves', 'out', 'over', 'own', 'per', 'quite', 'rather', 'same',
+  'seems', 'several', 'she', 'should', 'since', 'so', 'some', 'somebody', 'someone',
+  'something', 'somewhere', 'still', 'such', 'than', 'that', 'the', 'their',
+  'theirs', 'them', 'themselves', 'then', 'there', 'therefore', 'these', 'they',
+  'this', 'those', 'though', 'through', 'thy', 'to', 'too', 'under', 'until',
+  'up', 'upon', 'us', 'via', 'very', 'was', 'we', 'were', 'what', 'whatever',
+  'when', 'where', 'wherever', 'whether', 'which', 'whichever', 'while', 'who',
+  'whom', 'whose', 'why', 'will', 'with', 'would', 'yet', 'you', 'your'
+]);
