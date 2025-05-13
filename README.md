@@ -4,7 +4,6 @@ A lightweight, zero-dependency NLP summarization package built with TypeScript. 
 
 [![npm version](https://img.shields.io/npm/v/text-summarizer.svg)](https://www.npmjs.com/package/text-summarizer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Types](https://img.shields.io/npm/types/text-summarizer)](https://www.npmjs.com/package/text-summarizer)
 
 ## Features
 
